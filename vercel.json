@@ -19,20 +19,6 @@
       "dest": "/web-dashboard/$1"
     }
   ],
-  "functions": {
-    "api/agent-factory.js": {
-      "maxDuration": 30
-    },
-    "api/sentiment-agent.js": {
-      "maxDuration": 60
-    },
-    "api/recommendation-agent.js": {
-      "maxDuration": 45
-    },
-    "api/performance-monitor.js": {
-      "maxDuration": 30
-    }
-  },
   "env": {
     "SUPABASE_URL": "@supabase-url",
     "SUPABASE_ANON_KEY": "@supabase-anon-key",
